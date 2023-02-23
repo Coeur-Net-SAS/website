@@ -6,11 +6,12 @@ import reportWebVitals from "./reportWebVitals";
 
 import { HashRouter as Router } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <Router>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <HashRouter>
       <App />
-    </Router>
+    </HashRouter>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
