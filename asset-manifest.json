@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.c1dc3ff3.css",
-    "main.js": "/static/js/main.2dd95f1d.js",
+    "main.js": "/static/js/main.64359332.js",
     "static/js/496.c417b880.chunk.js": "/static/js/496.c417b880.chunk.js",
-    "static/media/eye.png": "/static/media/eye.8ef889482db3e782b6c3.png",
+    "static/media/DALL·E-cardiac-digital.png": "/static/media/DALL·E-cardiac-digital.e7fea1ddd6e4895ccb9c.png",
     "static/media/logo.png": "/static/media/logo.39c62c6f82b52e79fb15.png",
     "static/media/BPI_svg.svg": "/static/media/BPI_svg.4c6de8bd5a7ef6f2eb2b9e9810f77300.svg",
     "static/media/INSA.svg": "/static/media/INSA.9b7f56b78f248e2e8c0a7b970f7e8bc6.svg",
@@ -18,11 +18,11 @@
     "static/media/pre.svg": "/static/media/pre.e19f6ec2f023a5215ecc.svg",
     "index.html": "/index.html",
     "main.c1dc3ff3.css.map": "/static/css/main.c1dc3ff3.css.map",
-    "main.2dd95f1d.js.map": "/static/js/main.2dd95f1d.js.map",
+    "main.64359332.js.map": "/static/js/main.64359332.js.map",
     "496.c417b880.chunk.js.map": "/static/js/496.c417b880.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1dc3ff3.css",
-    "static/js/main.2dd95f1d.js"
+    "static/js/main.64359332.js"
   ]
 }
