@@ -13,18 +13,21 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Bienvenue !{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1>
 
               <h1 className="heading-name">
-                Sur le site web de l'entreprise
                 <strong className="main-name"> COEUR-NET</strong>
               </h1>
-
+              <h3>
+              Entreprise innovante dans le domaine de :
+              </h3>
+              <ul>
+                <li> Authentifications biométriques continues</li>
+                <li>  Contrôle d'accès physique et logiciel</li>
+                <li> Gestion des identités (IAM)</li>
+              </ul>
+              <br></br>
+              <br></br>
+              <h2 className="main-name"> Exemples d'applications</h2>
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
@@ -42,6 +45,7 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+
     </section>
   );
 }

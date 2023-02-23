@@ -6,10 +6,9 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Authentification biometriques continues",
-          "Contrôle d'accès",
-          "IAM",
-          "Sécurité des Données",
+          "Remplacer les badges",
+          "Remplacer les mots de passes",
+          "Reconnaitre le porteur d'un objet connecté",
         ],
         autoStart: true,
         loop: true,

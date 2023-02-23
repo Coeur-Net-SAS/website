@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/eye.png";
+import myImg from "../../Assets/DALL·E-cardiac-digital.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -16,28 +16,26 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              Décourvez notre <span className="purple"> Start-up </span> 
+            Découvrez notre <span className="purple"> Start-up </span> 
             </h1>
             <p className="home-about-body">
               Nous valorisons des travaux de recherches académiques en cybersécurité :
               <br />
-              <br />Issues du 
+              <br />Issus du  
               <i>
                 <b className="purple"> Laboratoire d'Informatique Fondamentalle d'Orleans (LIFO) </b>
               </i>
               <br />
               <br />
-              Nos travaux portente sur &nbsp;
+              Nos travaux portent sur &nbsp;
               <i>
-                <b className="purple">Les technologies d'authentification biometriques continues </b> et
-                aussi {" "}
-                <b className="purple">
-                  la sécurité des dispositifs médicaux.
-                </b>
+                <b className="purple">les technologies d'authentifications biometriques continues </b>, ainsi que sur 
+                <b className="purple"> la sécurité des dispositifs médicaux.
+                </b> 
               </i>
               <br />
               <br />
-              Des démonstrateurs seront bientôt <b className="purple">disponnibles</b> 
+              Des démonstrateurs seront bientôt <b className="purple">disponibles</b> 
             </p>
           </Col>
           <Col md={4} className="myAvtar">

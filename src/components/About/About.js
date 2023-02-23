@@ -54,9 +54,9 @@ function About() {
         <br />
         <strong className="purple">Siège social</strong> : Coeur-Net, 6 rue Maurice Roy, 18 000, Bourges<br />
         <strong className="purple">Capital social</strong> : 25 000 euros<br />
-        <strong className="purple">Contact</strong> : contact@coeur-net.fr               <br />   
-        <strong className="purple">Responsable de la rédaction</strong> : Benjamin Vignau<br />
-        <br />
+        <strong className="purple">SIRET</strong> : 922 210 430 00018<br />
+        <strong className="purple">Contact</strong> : contact@coeur-net.
+        
         <br />
                   
         Aucune information personnelle n'est collectée à votre insu.
