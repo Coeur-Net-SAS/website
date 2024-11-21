@@ -29,3 +29,16 @@ npm install react-icons --save
     * Tous nos partenaires avec détails de leur aide ??
 
 6. Faire une timeline avec total financements obtenus ??
+
+## Déploiement 
+
+```
+npm install
+npm run deploy
+
+```
+
+
+Aller sur la configuration github pages https://github.com/Coeur-Net-SAS/website/settings/pages 
+
+Rajouter www.coeur-net.fr dans la partie Custom domain

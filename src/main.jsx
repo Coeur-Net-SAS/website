@@ -7,10 +7,12 @@ import Auth from './Auth';
 import NosServices from './NosServices';
 import Partners from './Partners';
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { HashRouter as HashRouter, Routes, Route } from 'react-router-dom';
+
+// import {
+//   createBrowserRouter,
+//   RouterProvider,
+// } from "react-router-dom";
 
 import './index.css'
 
