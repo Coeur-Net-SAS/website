@@ -5,7 +5,10 @@ import tailwindcss from 'tailwindcss'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'https://www.coeur-net.fr/',
+  base: '/repo/',
+  server: {
+    host: true,
+  },
   css: {
     postcss: {
       plugins: [tailwindcss()],
