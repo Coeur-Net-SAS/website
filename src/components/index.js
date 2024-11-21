@@ -12,7 +12,7 @@ import Stats from './Stats'
 import Testimonials from './Testimonials'
 import Carousel from './Carousel'
 import CarouselPartenaire from './CarouselPartenaire'
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter} from 'react-router-dom';
 import Techstack from './Techstack'
 import Contact from './Contact'
 import Fonctionnement1 from './Fonctionnement1'

@@ -42,23 +42,23 @@ initTWE({ Collapse, Dropdown, Carousel });
 
 export const navLinks = [
   {
-    id: "home",
+    id: "#/home",
     title: "Accueil",
   },
   {
-    id: "auth",
+    id: "#/auth",
     title: "Authentification continue",
   },
   {
-    id: "sig",
+    id: "#/sig",
     title: "Signatures électroniques",
   },
   {
-    id: "services",
+    id: "#/services",
     title: "Nos services",
   },
   {
-    id: "partners",
+    id: "#/partners",
     title: "Partenaires",
   },
 ];
