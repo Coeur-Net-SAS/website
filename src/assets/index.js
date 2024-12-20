@@ -43,6 +43,7 @@ import b3 from "./b3.png"
 import devup from "./devup.png"
 import cardiac_server from "./cardiac_server.jpg"
 import article1 from "./article1.png"
+import ovh from "./OVHcloud.png"
 
 export {
   article1,
@@ -90,4 +91,5 @@ export {
   vierzon,
   b3,
   devup,
+  ovh,
 };

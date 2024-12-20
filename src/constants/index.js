@@ -29,6 +29,7 @@ import {
   entreprendre,
   b3,
   devup,
+  ovh,
 } from "../assets";
 
 import {
@@ -260,5 +261,9 @@ export const clients = [
   {
     id: "client-12",
     logo: b3,
+  },
+  {
+    id: "client-13",
+    logo: ovh,
   },
 ];
