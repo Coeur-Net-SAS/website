@@ -1,22 +1,4 @@
 import { 
-  Benjamin,
-  Joseph,
-  Pat,
-  people02, 
-  people03, 
-  facebook, 
-  instagram, 
-  linkedin, 
-  airbnb, 
-  binance, 
-  coinbase, 
-  dropbox, 
-  send, 
-  shield,
-  coeur01, 
-  star,
-  auth_continue,
-  souverain,
   bpifrance,
   lifo,
   insa_cvl,
@@ -30,7 +12,7 @@ import {
   b3,
   devup,
   ovh,
-} from "../assets";
+} from "../../assets/img/partners";
 
 import {
   Collapse,
@@ -64,87 +46,9 @@ export const navLinks = [
   },
 ];
 
-export const features = [
-  {
-    id: "feature-1",
-    icon: auth_continue,
-    title: "Authentification continue",
-    content:
-      "Avec notre système, tant que vous portez votre bracelet, vous êtes authentifié",
-  },
-  {
-    id: "feature-2",
-    icon: shield,
-    title: "Sécurité totale",
-    content:
-      "Profitez d'une sécurité renforcée en bénéficiant d'un produit à la pointes des recherches mondiales en matière d'authentification cardiaque continue",
-  },
-  {
-    id: "feature-3",
-    icon: souverain,
-    title: "Système souverain et indépendant",
-    content:
-      "La totalité de notre code et de nos infrastructures sont développés en France",
-  },
-  {
-    id: "feature-4",
-    icon: star,
-    title: "Ergonomie maximale",
-    content:
-      "L'utilisation du produit est d'une grande simplicité puisqu'il n'y a rien à faire d'autre que de le porter au poignet. ",
-  },
-];
 
-export const feedback = [
-  // {
-  //   id: "Coeur-Net",
-  //   content:
-  //     "Authentification biométrique cardiaque, pour avoir l'esprit tranquille.",
-  //   name: "Coeur-Net",
-  //   title: "",
-  //   img: coeur01,
-  // },
-  {
-    id: "CEO",
-    content:
-      "",
-    name: "Benjamin Vignau",
-    title: "Fondateur & CEO",
-    img: Benjamin,
-  },
-  {
-    id: "CSO",
-    content:
-      "",
-    name: "Patrice Clemente",
-    title: "Fondateur & CSO",
-    img: Pat,
-  },
-  {
-    id: "CTO",
-    content:
-      "",
-    name: "Joseph Kawalec",
-    title: "CRO",
-    img: Joseph,
-  },
-//  {
-//    id: "Recrutement",
-//    content:
-//      "Rejoignez nous pour une aventure unique.",
-//    name: "Recrutement",
-//    title: "",
-//    img: coeur01,
-//  },
-  // {
-  //   id: "Recrutement-2",
-  //   content:
-  //     "Rejoignez nous pour une aventure unique.",
-  //   name: "Recrutement",
-  //   title: "",
-  //   img: coeur01,
-  // },
-];
+
+
 
 export const stats = [
   {
@@ -205,13 +109,7 @@ export const footerLinks = [
   },
 ];
 
-export const socialMedia = [
-{
-    id: "social-media-0",
-    icon: linkedin,
-    link: "https://www.linkedin.com/company/coeur-net/",
-  },
-];
+
 
 export const clients = [
   {

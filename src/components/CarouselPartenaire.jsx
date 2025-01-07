@@ -1,14 +1,12 @@
-import { useState, useRef, useEffect } from 'react';
-import Feedback from './Feedback'
-import { feedback } from '../constants'
+import React,{ useState, useRef, useEffect } from 'react';
+import { createRoot } from 'react-dom/client';
 import { clients } from '../constants'
 import styles from '../style'
+//import ScrollCarousel from 'scroll-carousel';
 
-
-// Data
-import data from './data.json';
 
 const CarouselPartenaire = () => {
+  /*
   const maxScrollWidth = useRef(0);
   const [currentIndex, setCurrentIndex] = useState(0);
   const carousel = useRef(null);
@@ -113,14 +111,47 @@ const CarouselPartenaire = () => {
             <img
               src={client.logo}
               alt='client'
-              className='sm:w-[192px] w-[100px] object-contain'
-            />           
+              className=' object-contain'
+            />         
           </div>
         ))}
         </div>
       </div>
     </div>
   );
+  */
+ return(
+  <div class="ss-carousel__wrapper" >
+                        <div class="ss-carousel__header">
+                        <h1 class="fw-bold text-gradient">Ils nous soutiennent</h1>
+                            <div class="ss-carousel__controls">
+                              <button class="ss-carousel__arrow disabled arrow-prev"></button>
+                              <button class="ss-carousel__arrow arrow-next"></button>
+                            </div>
+                          </div>
+                      <ul className="ss-carousel__content">
+  {clients.map((client) => (
+    <li key={client.id} className={`ss-carousel__item flex-1 ${styles.flexCenter}`}>
+      <a href="#">
+      <img
+        src={client.logo}
+        alt={client.id}
+        className='ss-carousel__item__image'
+      />
+      </a>         
+    </li>
+  ))}
+  
+  </ul>
+                    </div>
+  
+ );
 };
 
-export default CarouselPartenaire;
+
+const e = React.createElement;
+const root = createRoot(document.getElementById("CarouselPartenaire"));
+root.render(e(CarouselPartenaire));
+
+
+
