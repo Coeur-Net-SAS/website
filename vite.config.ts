@@ -17,6 +17,17 @@ export default defineConfig({
     postcss: {
       plugins: [tailwindcss()],
     },
+  },
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        auth: 'auth.html',
+        partners: 'partners.html',
+        services: 'services.html',
+        sig: "sig.html"
+      },
+  },
   }
 
 })

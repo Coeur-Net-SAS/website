@@ -11,6 +11,8 @@ import vierzon from "./vierzon.png"
 import b3 from "./b3.png"
 import devup from "./devup.png"
 import ovh from "./OVHcloud.png"
+import reseau_initiative from "./CVL_Reseau_Initiative.png"
+import UE from "./UE.png"
 
 export {
   bpifrance,
@@ -26,4 +28,6 @@ export {
   b3,
   devup,
   ovh,
+  reseau_initiative,
+  UE
 };

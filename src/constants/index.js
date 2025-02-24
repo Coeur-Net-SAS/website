@@ -12,6 +12,8 @@ import {
   b3,
   devup,
   ovh,
+  reseau_initiative,
+  UE
 } from "../../assets/img/partners";
 
 import {
@@ -164,4 +166,12 @@ export const clients = [
     id: "client-13",
     logo: ovh,
   },
+  {
+    id: "client-14",
+    logo: reseau_initiative
+  },
+  {
+    id: "client-15",
+    logo: UE
+  }
 ];
