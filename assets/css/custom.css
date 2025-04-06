@@ -11,10 +11,11 @@
 
 p{
   font-size: 1.5em;
+  text-justify: inter-word;
 }
 
 li{
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .bar-nav{
@@ -22,7 +23,7 @@ li{
     --bs-border-opacity: 1;border-color:rgba(var(--bs-dark-rgb), var(--bs-border-opacity)) !important
 }
 h1{
-  font-size: 4em;
+  font-size: 3em;
 }
 .text-gradient {
 	background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,#174b84 .89%,#3e648d 17.23%,#5c95d2 42.04%,#5ce1e6 55.12%,#62ecf1 71.54%,#56a991 100%);
@@ -39,6 +40,10 @@ h1{
 p.text-muted {
 
     text-justify: auto;
+}
+h4.mb-0 {
+  margin-bottom: 0.5rem;
+  margin-left : 0.25rem;
 }
 .partners{
     width:32.5%;
