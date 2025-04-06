@@ -10,10 +10,16 @@
 }
 
 p{
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-justify: inter-word;
 }
 
+hr{
+  margin-bottom:0rem;
+}
+div.pt-3{
+  padding-top:0rem !important;
+}
 li{
   font-size: 1.25em;
 }
@@ -24,6 +30,9 @@ li{
 }
 h1{
   font-size: 3em;
+}
+p.footerText{
+  font-size: 0.5rem
 }
 .text-gradient {
 	background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,#174b84 .89%,#3e648d 17.23%,#5c95d2 42.04%,#5ce1e6 55.12%,#62ecf1 71.54%,#56a991 100%);
