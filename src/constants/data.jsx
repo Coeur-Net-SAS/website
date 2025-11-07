@@ -69,7 +69,7 @@ export const distinctions = [
       "Lauréat du Prix du Groupe INSA pour l’entrepreneuriat à impact, Coeur-Net a été distinguée pour son innovation en biométrie cardiaque, récompensant un projet technologique alliant sécurité, éthique et impact sociétal.",
     images: [
       "assets/img/distinctions/distinction_1.png",
-      "assets/img/distinctions/distinction_6.png",
+      "assets/img/distinctions/distinction_5.png",
     ],
   },
 
