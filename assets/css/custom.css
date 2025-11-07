@@ -2,6 +2,9 @@
 .body {
     background-color: #00040F;
 }
+.text-center {
+  align-items: center;
+}
 
 .footer {
   max-width: 98%;
