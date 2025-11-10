@@ -10,6 +10,7 @@ export default defineConfig({
     })
   ],
   base: './',
+  publicDir: "./assets",
   server: {
     host: true,
   },
@@ -20,7 +21,10 @@ export default defineConfig({
         auth: 'auth.html',
         partners: 'partners.html',
         services: 'services.html',
-        sig: "sig.html"
+        sig: "sig.html",
+        presse: "presse.html",
+        distinctions: "distinctions.html",
+        equipe :"equipe.html",
       },
     },
   }

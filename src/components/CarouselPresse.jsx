@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import {presseArticles} from '../constants/data'
+import {presseArticles} from '../constants/index'
 
 
 const BandeauVideo = () => {
