@@ -19,9 +19,9 @@ const ContactForm = ({ onClose }) => {
 
     const data = {
       access_key: "efeee96a-f152-4976-9fe4-7319d627b80e",
-      from_name: formData.user_email,
-      subject: formData.subject,
-      message: formData.message,
+      from_name: "",
+      subject: formData.subject || "",
+      message: `Message de la part de : ${formData.user_email}\n\n${formData.message || ""}`,
     };
 
     try {
