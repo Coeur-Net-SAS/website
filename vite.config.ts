@@ -25,6 +25,8 @@ export default defineConfig({
         presse: "presse.html",
         distinctions: "distinctions.html",
         equipe :"equipe.html",
+        privacy : "privacy_policy.html",
+        legal : "legal.html"
       },
     },
   }
